@@ -10,7 +10,7 @@ Dataset published for the competition is [here](https://drive.google.com/file/d/
 
 ## Preprocess
 Initially, dataset consist of 13759 96 x 96 images. However the dataset included some outlier Shrek&Singer images as we observed. 
-So first we eliminate the outliers, then we balanced the dataset as there is dataset imbalance problem
+So first we eliminate the outliers, then we removed the duplicates from the dataset and we balanced the dataset as there is imbalance problem.
 
 ## Augmentation
 As a result of our experiments, we realized that the score on the local test set did not match well with the test set on the competition platform. So our model had to be quite generalizable. 
